@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "experience": "experience",
+    "skills": "skills",
+    "education": "education",
+    "contact": "contact"
+  },
+  "hero": {
+    "title": "Fullstack Developer",
+    "born": "b. 1972",
+    "nationality": "Swedish",
+    "languages": "sv · no · en"
+  },
+  "sections": {
+    "experience": "// experience",
+    "skills": "// skills",
+    "education": "// education",
+    "contact": "// contact"
+  },
+  "experience": {
+    "expand": "▶",
+    "collapse": "▼",
+    "stack": "stack:"
+  },
+  "skills": {
+    "products": "tools & platforms",
+    "os": "operating systems",
+    "methods": "methods & roles",
+    "levels": {
+      "very experienced": "very experienced",
+      "experienced": "experienced",
+      "some experience": "some experience"
+    }
+  },
+  "education": {
+    "title": "education & certifications",
+    "courses": "courses",
+    "certs": "certifications"
+  },
+  "contact": {
+    "intro": "Available for new assignments.",
+    "obfuscated": "contact details are rendered client-side to reduce harvesting."
+  },
+  "jobs": {
+    "ambition": {
+      "role": "Fullstack Developer",
+      "description": "Working as 1 of 2 developers maintaining and building new functionality for Ambition Group's Empower solution. Independently built a complete system for TrackLeaders allowing them to manage their own content — a C# Web API with a database and React frontend, deployed to Azure with CI/CD. Also built a new feature allowing admins to create Excel reports, using C#, SQL Server and Blazor."
+    },
+    "burnout": {
+      "client": "—",
+      "role": "Personal recovery",
+      "description": "I have been dealing with burnout syndrome (utmattningssyndrom). I am still recovering."
+    },
+    "volvo": {
+      "role": "Documentum Consultant",
+      "description": "Volvocars upgraded two legacy Content Servers from version 5.3 to 6.7 SP1. The underlying OS was migrated from AIX to SUSE Linux and the Oracle database moved to a database hotel. Client applications were upgraded from DFC 5.3 SP3 to DFC 6.7 SP1, and the web service from Axis 1.4 to JAX-WS 2.x. I made extensive changes to the build scripts and updated legacy code to run on the new JBoss method server. Also conducted training sessions for the maintenance team."
+    },
+    "grundfoss2013": {
+      "role": "Documentum Consultant",
+      "description": "Helped Grundfoss upgrade and migrate their Documentum system from a 32-bit Windows environment to a new 64-bit Windows system, while upgrading from version 6.6 to 6.7 SP2. Authored a detailed installation document for the upgrade team to follow. Upgraded all environments (Dev, Test, Q&A) including: Content Server, Full Text Index Server, DA/DAM Server, WebTop App Server, Media Workspace Server, Centerstage Pro Server, Grundfos Integration Server, SAP Archiving Server, rendition servers, and BOCS Server. The in-house team then used the installation document to upgrade production."
+    },
+    "grundfoss2012": {
+      "role": "Documentum Consultant",
+      "description": "Helped Grundfoss integrate Documentum WebTop with external systems using web services that presented external data inside WebTop, and built a content streaming servlet that streamed content directly from the repository to outside systems. Also built a lightweight standalone search web interface for finding content in the repository, using Java servlet, JSP, DFC, HTML, JavaScript, Content Server, and DQL."
+    },
+    "politiet20102015": {
+      "role": "Documentum Consultant",
+      "description": "Provided long-term support, maintenance, and upgrades to the Norwegian Police's Documentum Web Publisher system and Java front end for www.politi.no. Worked closely with their IT Department, providing technical assistance and transferring knowledge to key personnel."
+    },
+    "politiet2010poc": {
+      "role": "Documentum Consultant",
+      "description": "Together with EMC, built a proof-of-concept xCP application covering all aspects of a crime — from initial police report through investigation, trial, and sentencing. The application displayed geolocation data on Google Maps and integrated with central address registers. Installed the full server stack (Content Server, Application Server, Media Transformation Server, BAM Server, Indexing Server). Demonstrated how to trigger business processes from email and from an online reporting application, and showed how BAM could be used to visualise process statistics."
+    },
+    "politiet2009media": {
+      "role": "Documentum Consultant",
+      "description": "Designed and built a media content management system for the Norwegian Police, enabling centralised storage of all images and videos used across the country's systems. Content was served directly from Documentum, ensuring a single source of truth with maintained security. The system was built and installed by me. Unfortunately the project was abandoned before completion."
+    },
+    "politiet20082009": {
+      "role": "Documentum Consultant",
+      "description": "Responsible for the design, coding, and testing of the Documentum portion of the new www.politi.no website built on Web Publisher. Installed all system components, coded Business Object Framework (BOF) logic, configured ACLs, workflows, lifecycles, and object types, wrote content templates with associated XSLT transforms, set up value assistance and Media Server profiles, configured Site Caching Services, and built/modified WebPublisher WDK components. The project involved more than 20 people and received nationwide media attention during launch."
+    },
+    "omron": {
+      "role": "Documentum Consultant",
+      "description": "Lead Documentum developer building a content management solution for industrial.omron.eu. Developed workflows, lifecycles, security configurations, object types, SCS publishing jobs, Media Transformation Services, and WDK customisations for managing images and PDF files. Migrated the Documentum environment to a new server farm and upgraded from 5.3 SP1 to 5.3 SP5. Designed the new environment architecture. Built a WDK component for selecting image profiles that auto-generates renditions on import, a publish/unpublish component for content managers, and a standalone WDK import application suited to non-technical users."
+    },
+    "tubelines": {
+      "role": "Documentum Consultant",
+      "description": "Member of a support team for Tube Lines' Documentum systems — user base grew from 200 to 2,500 during this period. Major projects included: a VB6 bulk import tool for importing hundreds of thousands of documents with full attribute mapping; a VB6 Auto Archiving Service running unattended as a Windows service; a recycle bin using TBO (Java) and DTC (VB6) allowing users to restore deleted documents and folders; a Document Creation component that reduced response times from 45+ seconds to under a second; a reprographics workflow using BPM and Java methods; and a Web Publisher search engine in C#."
+    },
+    "toyota": {
+      "role": "Documentum Consultant",
+      "description": "Built a bespoke web-based system on WDK/DFC/BOF/Lifecycles/Workflows/CRS running on WebSphere Application Server 5.1. Migrated 100,000 documents from Documentum 4.2 to 5.2.5 SP3. Tasks included: a VB6/DFC/DQL plugin for AutoRender Pro joining PDF pages into single virtual documents; a Java applet/servlet bulk import tool; setting up audit trails, object types, groups, ACLs, and value assistance; building multiple WDK components from scratch; writing Ant install scripts; and mentoring other developers in Documentum technologies."
+    },
+    "ema": {
+      "role": "Documentum Consultant",
+      "description": "Implemented a Documentum 5.2.5 solution integrating with Microsoft Office products including Outlook, using a modified Desktop Client. Built an easily configurable VB6/XML tool that imported 1.4 million documents and their metadata into Documentum."
+    },
+    "az20032004": {
+      "role": "Documentum Consultant",
+      "description": "The five GEL docbases spread across three countries were consolidated to one centralised location. Developed and tested the migration process, and authored a set of Installation Qualification, Operation Qualification, and Design documents for the move team to follow. The GEL system ran on both UNIX and Windows machines."
+    },
+    "az2003test": {
+      "role": "Documentum Consultant",
+      "description": "Responsible for test case design and execution for the GEL client v4 thorough testing cycle. The system was built on Documentum 4i, consisting of multiple docbases in a federation."
+    },
+    "az2003import": {
+      "role": "Documentum Consultant",
+      "description": "Six international teams were extracting documents from legacy Documentum systems. These were imported into GEL using a bespoke VB6/XML import tool that required continuous refinement to handle differences in incoming data across teams."
+    },
+    "az20022003": {
+      "role": "Developer",
+      "description": "Migrated seven Documentum legacy systems into the GEL system. Built several tools to extract metadata, compile it into XML, transfer it to the import team, and render PDF files from source documents. All tools were written in VB6 with DFC 4/XML, targeting Content Server 4.2/Oracle DB."
+    }
+  }
+}

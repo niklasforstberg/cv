@@ -1,0 +1,42 @@
+.contact-intro {
+  font-size: 0.875rem;
+  color: var(--fg-muted);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-table {
+  border-collapse: collapse;
+}
+
+.contact-table tr {
+  border-top: 1px solid var(--border);
+}
+
+.contact-table tr:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.contact-label {
+  padding: 0.5rem 2rem 0.5rem 0;
+  font-size: 0.75rem;
+  color: var(--fg-faint);
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.contact-value {
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  vertical-align: middle;
+}
+
+.contact-loading {
+  color: var(--fg-faint);
+  letter-spacing: 0.2em;
+}
+
+.section--last {
+  margin-bottom: 0;
+  padding-bottom: 4rem;
+}

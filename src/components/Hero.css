@@ -1,0 +1,43 @@
+.hero {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 4rem 2rem 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-name {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+}
+
+.hero-title {
+  font-size: 1rem;
+  color: var(--fg-muted);
+  font-weight: 300;
+  margin-bottom: 0.75rem;
+}
+
+.hero-meta {
+  font-size: 0.8rem;
+  color: var(--fg-faint);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.dot {
+  color: var(--border);
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 2.5rem 1rem 2rem;
+  }
+
+  .hero-name {
+    font-size: 1.5rem;
+  }
+}

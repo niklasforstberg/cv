@@ -1,0 +1,60 @@
+.edu-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem 3rem;
+}
+
+.edu-sub {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--fg-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.75rem;
+}
+
+.edu-list {
+  list-style: none;
+  font-size: 0.875rem;
+  line-height: 2;
+}
+
+.edu-list li::before {
+  content: '—  ';
+  color: var(--fg-faint);
+}
+
+.cert-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cert-table tr {
+  border-top: 1px solid var(--border);
+}
+
+.cert-table tr:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.cert-name {
+  padding: 0.4rem 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.cert-year {
+  padding: 0.4rem 0;
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  text-align: right;
+  white-space: nowrap;
+  padding-left: 1rem;
+}
+
+@media (max-width: 700px) {
+  .edu-grid {
+    grid-template-columns: 1fr;
+  }
+}

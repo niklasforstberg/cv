@@ -1,0 +1,84 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0.75rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-name {
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.03em;
+  flex-shrink: 0;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: var(--fg-muted);
+  font-size: 0.8rem;
+  transition: color 0.1s;
+}
+
+.header-nav a:hover {
+  background: none;
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.lang-switcher {
+  display: flex;
+  gap: 0;
+  flex-shrink: 0;
+}
+
+.lang-switcher button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--fg-muted);
+  font-family: var(--font);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+  margin-left: -1px;
+  transition: background 0.1s, color 0.1s;
+}
+
+.lang-switcher button:first-child {
+  margin-left: 0;
+}
+
+.lang-switcher button:hover,
+.lang-switcher button.active {
+  background: var(--fg);
+  color: var(--bg);
+  border-color: var(--fg);
+  z-index: 1;
+  position: relative;
+}
+
+@media (max-width: 640px) {
+  .header-nav {
+    display: none;
+  }
+
+  .header-inner {
+    padding: 0.75rem 1rem;
+  }
+}

@@ -1,0 +1,24 @@
+.section {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-inner {
+  width: 100%;
+}
+
+.section-heading {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--fg-faint);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+@media (max-width: 640px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "experience": "erfaring",
+    "skills": "kompetanse",
+    "education": "utdanning",
+    "contact": "kontakt"
+  },
+  "hero": {
+    "title": "Fullstack-utvikler",
+    "born": "f. 1972",
+    "nationality": "Svensk",
+    "languages": "sv · no · en"
+  },
+  "sections": {
+    "experience": "// erfaring",
+    "skills": "// kompetanse",
+    "education": "// utdanning",
+    "contact": "// kontakt"
+  },
+  "experience": {
+    "expand": "▶",
+    "collapse": "▼",
+    "stack": "stack:"
+  },
+  "skills": {
+    "products": "verktøy & plattformer",
+    "os": "operativsystemer",
+    "methods": "metoder & roller",
+    "levels": {
+      "very experienced": "svært erfaren",
+      "experienced": "erfaren",
+      "some experience": "noe erfaring"
+    }
+  },
+  "education": {
+    "title": "utdanning & sertifikater",
+    "courses": "kurs",
+    "certs": "sertifiseringer"
+  },
+  "contact": {
+    "intro": "Tilgjengelig for nye oppdrag.",
+    "obfuscated": "kontaktdetaljer rendres klientsiden for å redusere høsting."
+  },
+  "jobs": {
+    "ambition": {
+      "role": "Fullstack-utvikler",
+      "description": "Jobbet som 1 av 2 utviklere som vedlikeholdt og videreutviklet funksjonalitet for Ambition Groups Empower-løsning. Bygde alene et komplett system for TrackLeaders som lar dem administrere innhold selv — et C# Web API med database og React-frontend, deployat på Azure med CI/CD. Bygde også en ny funksjon som lar administratorer opprette Excel-rapporter, med C#, SQL Server og Blazor."
+    },
+    "burnout": {
+      "client": "—",
+      "role": "Personlig restitusjon",
+      "description": "Jeg lider av utmattelsessyndrom og er fortsatt under restitusjon."
+    },
+    "volvo": {
+      "role": "Documentum-konsulent",
+      "description": "Volvocars oppgraderte to legacy Content Servere fra versjon 5.3 til 6.7 SP1. Underliggende OS ble migrert fra AIX til SUSE Linux og Oracle-databasen flyttet til et databasehotell. Klientapplikasjoner ble oppgradert fra DFC 5.3 SP3 til DFC 6.7 SP1, og webtjenesten fra Axis 1.4 til JAX-WS 2.x. Gjennomførte opplæring for vedlikeholdsteamet."
+    },
+    "grundfoss2013": {
+      "role": "Documentum-konsulent",
+      "description": "Hjalp Grundfoss med å oppgradere og flytte Documentum-systemet fra 32-bits Windows til 64-bits Windows, med oppgradering fra versjon 6.6 til 6.7 SP2. Utarbeidet detaljert installasjonsdokument for oppgraderingsteamet. Oppgraderte alle miljøer (Dev, Test, Q&A) inkludert Content Server, Full Text Index Server, DA/DAM Server, WebTop App Server, Media Workspace Server, Centerstage Pro Server, integrasjonsserver, SAP-arkiveringsserver og renderingsservere. In-house-teamet brukte deretter dokumentet for produksjonsmigrasjon."
+    },
+    "grundfoss2012": {
+      "role": "Documentum-konsulent",
+      "description": "Hjalp Grundfoss med å integrere Documentum WebTop mot eksterne systemer via webtjenester, og bygde en innholdsstrømmende servlet som leverte innhold direkte fra repositoriet til eksterne systemer. Bygde også et lettvekts søkegrensesnitt for repositoriet i Java servlet, JSP, DFC, HTML, JavaScript og DQL."
+    },
+    "politiet20102015": {
+      "role": "Documentum-konsulent",
+      "description": "Langsiktig støtte, vedlikehold og oppgraderinger av politiets Documentum Web Publisher-system og Java-frontend for www.politi.no. Tett samarbeid med IT-avdelingen med kunnskapsoverføring til nøkkelpersoner i organisasjonen."
+    },
+    "politiet2010poc": {
+      "role": "Documentum-konsulent",
+      "description": "Bygde sammen med EMC et proof-of-concept for xCP som dekket alle aspekter av et straffesak — fra anmeldelse til etterforskning, rettssak og dom. Applikasjonen viste geolokalisering på Google Maps og integrerte med sentrale adresseregistre. Installerte full serverstack og demonstrerte hvordan saksprosesser kan trigges fra e-post og nettanmeldelse, samt hvordan BAM kan visualisere prosessstatistikk."
+    },
+    "politiet2009media": {
+      "role": "Documentum-konsulent",
+      "description": "Designet og bygde et medieforvaltningssystem for politiet for sentralisert lagring av bilder og video. Innhold ble servert direkte fra Documentum, noe som sikret én kilde med opprettholdt sikkerhetskontroll. Prosjektet ble dessverre avbrutt før ferdigstillelse."
+    },
+    "politiet20082009": {
+      "role": "Documentum-konsulent",
+      "description": "Ansvarlig for design, koding og testing av Documentum-delen i det nye www.politi.no bygget på Web Publisher. Installerte alle systemkomponenter, kodet BOF-logikk, konfigurerte ACL-er, arbeidsflyter, livssykluser og objekttyper, opprettet innholdsmal med XSLT, konfigurerte mediaserverprofiler og SCS, samt bygde og modifiserte WDK-komponenter. Prosjektet involverte mer enn 20 personer og fikk nasjonal medieoppmerksomhet ved lansering."
+    },
+    "omron": {
+      "role": "Documentum-konsulent",
+      "description": "Lead Documentum-utvikler i prosjektet med å bygge en innholdsforvaltningsløsning for industrial.omron.eu. Utviklet arbeidsflyter, livssykluser, sikkerhetskonfigurasjon, objekttyper, SCS-publiseringsjobber, Media Transformation Services og WDK-tilpasninger. Migrerte Documentum-miljøet til ny serverpark og oppgraderte fra 5.3 SP1 til 5.3 SP5. Designet ny miljøarkitektur og bygde WDK-komponenter for bildeprofiler, publisering og en fristående importapplikasjon."
+    },
+    "tubelines": {
+      "role": "Documentum-konsulent",
+      "description": "Del av supportteam for Tube Lines' Documentum-systemer — brukerbase vokste fra 200 til 2 500. Større prosjekter: VB6-masseimportverktøy for hundretusenvis av dokumenter; VB6 Auto Archiving Service som kjørte uovervåket som Windows-tjeneste; papirkurvløsning i TBO (Java) og DTC (VB6); dokumentopprettingskomponent som reduserte responstid fra 45+ sekunder til under ett sekund; reprografisk arbeidsflyt i BPM og Java; søkemotor for Web Publisher i C#."
+    },
+    "toyota": {
+      "role": "Documentum-konsulent",
+      "description": "Bygde et skreddersydd webbasert system i WDK/DFC/BOF/Lifecycles/Workflows/CRS på WebSphere Application Server 5.1. Migrerte 100 000 dokumenter fra Documentum 4.2 til 5.2.5 SP3. Oppdrag inkluderte: VB6/DFC/DQL-plugin for AutoRender Pro; Java applet/servlet masseimportverktøy; oppsett av audit trail, objekttyper, grupper, ACL-er og verdihjelp; bygde flere WDK-komponenter fra bunnen; Ant-installasjonsskript; samt veiledning av andre Documentum-utviklere."
+    },
+    "ema": {
+      "role": "Documentum-konsulent",
+      "description": "Implementerte en Documentum 5.2.5-løsning med integrasjon mot Microsoft Office inkludert Outlook via modifisert Desktop Client. Bygde et lett konfigurerbart VB6/XML-verktøy som importerte 1,4 millioner dokumenter med metadata til Documentum."
+    },
+    "az20032004": {
+      "role": "Documentum-konsulent",
+      "description": "Fem GEL-docbaser fordelt på tre land ble konsolidert til ett sentralt sted. Utviklet og testet migrasjonsprosessen og dokumenterte den i Installation Qualification-, Operation Qualification- og Design-dokumenter for migrasjonsteamet. GEL-systemet kjørte på UNIX og Windows."
+    },
+    "az2003test": {
+      "role": "Documentum-konsulent",
+      "description": "Ansvarlig for testfallsdesign og testgjennomføring i GEL-klientens v4-testsyklus. Systemet var bygget på Documentum 4i med flere docbaser i en føderasjon."
+    },
+    "az2003import": {
+      "role": "Documentum-konsulent",
+      "description": "Seks internasjonale team ekstraherte dokumenter fra legacy-systemer. Disse ble importert til GEL med et skreddersydd VB6/XML-importverktøy som kontinuerlig ble tilpasset for forskjeller i inndata mellom teamene."
+    },
+    "az20022003": {
+      "role": "Utvikler",
+      "description": "Migrerte syv Documentum-legacysystemer til GEL-systemet. Bygde verktøy for å ekstrahere metadata, kompilere den til XML, sende den til importteamet og rendre PDF-filer fra kildedokumenter. Alle verktøy ble skrevet i VB6 med DFC 4/XML mot Content Server 4.2/Oracle DB."
+    }
+  }
+}
